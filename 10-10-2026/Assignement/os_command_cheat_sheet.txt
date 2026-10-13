@@ -1,0 +1,74 @@
+# Moving to a Directory (Change Directory)
+
+**Windows (CMD) & Unix (Mac/Linux)**
+*The command is identical across all systems.*
+Syntax  : cd <path-to-directory>
+Example : cd C:\Users\scl\Projects    (Windows)
+Example : cd /home/user/projects      (Unix/Mac)
+
+*To go back up one directory level:*
+Syntax  : cd ..
+
+
+# Listing Files and Folders
+
+**Windows (CMD)**
+Syntax  : dir
+Example : dir
+
+**Unix (Mac/Linux)**
+Syntax  : ls
+*To see a detailed list including hidden files:*
+Syntax  : ls -la
+
+
+# Creating a Directory (Folder)
+
+**Windows (CMD) & Unix (Mac/Linux)**
+*The command is identical across all systems.*
+Syntax  : mkdir <folder-name>
+Example : mkdir my_new_project
+
+
+# Deleting a Directory (Folder)
+
+**Windows (CMD)**
+*For an empty folder:*
+Syntax  : rmdir <folder-name>
+Example : rmdir my_new_project
+
+*For a folder containing files (forces deletion quietly):*
+Syntax  : rmdir /s /q <folder-name>
+Example : rmdir /s /q my_new_project
+
+**Unix (Mac/Linux)**
+*For an empty folder:*
+Syntax  : rmdir <folder-name>
+Example : rmdir my_new_project
+
+*For a folder containing files (recursive and forced):*
+Syntax  : rm -rf <folder-name>
+Example : rm -rf my_new_project
+
+
+# Creating an Empty File
+
+**Windows (CMD)**
+*CMD doesn't have a direct equivalent to 'touch', but this is the standard workaround.*
+Syntax  : type nul > <file-name>
+Example : type nul > main.py
+
+**Unix (Mac/Linux)**
+Syntax  : touch <file-name>
+Example : touch main.py
+
+
+# Deleting a File
+
+**Windows (CMD)**
+Syntax  : del <file-name>
+Example : del main.py
+
+**Unix (Mac/Linux)**
+Syntax  : rm <file-name>
+Example : rm main.py

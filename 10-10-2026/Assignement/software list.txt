@@ -1,0 +1,15 @@
+UV installation link :
+https://docs.astral.sh/uv/getting-started/installation/#standalone-installer
+windows > winget install --id=astral-sh.uv  -e
+windows > powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+macos/linux > curl -LsSf https://astral.sh/uv/install.sh | sh
+macos/linux > wget -qO- https://astral.sh/uv/install.sh | sh
+
+VS code installation link : 
+https://code.visualstudio.com/download
+
+Anaconda Installation : 
+https://www.anaconda.com/docs/getting-started/installation
+
+Python : 
+https://www.python.org/downloads/

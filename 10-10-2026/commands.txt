@@ -1,0 +1,7 @@
+C:\Monal\Work\uv-venv\FDE1-uv-env\Scripts\activate
+
+uv pip install ipykernel
+
+python -m ipykernel install --user --name="FDE1-uv-env" --display-name="FDE1-uv-env"
+
+Install jupyter from microsoft extension from vscode

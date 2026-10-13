@@ -1,0 +1,20 @@
+# Create conda environment
+Syntax  : conda create -n <name of environment> python=3.xx
+example : conda create -n FDE1 python=3.12
+
+# Activating the conda environment
+Syntax               : conda activate <name of environment>
+Syntax(Unix/Mac-os)  : source activate <name of environment>
+Example              : conda activate FDE1
+Example(Unix/Mac-os) : source activate FDE1
+
+# Run python file (.py) using conda environment python
+
+Step-1 : Go to the location where file is present
+Step-2 : Python <file-name>.py
+
+# VSCODE SPECIFIC > if kernels keep looping in "detecting"
+
+run this command after activating your environment in terminal : 
+command-1 : python -m ensurepip --upgrade
+command-2 : python -m pip install ipykernel
